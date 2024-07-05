@@ -9,7 +9,7 @@ function App() {
   const [zar, setZar] = useState([])
 
     useEffect(() => {
-      axios.get('/api', {
+      axios.get('/api/get_zar', {
         params: {
           USDT: usdtAmount
         }
